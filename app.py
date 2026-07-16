@@ -2341,13 +2341,13 @@ def fi(text: str) -> str:
     return ''.join(out)
 
 # ─── CONFIG ────────────────────────────────────────────────────────────────────
-API_ID    = 21124241
-API_HASH  = 'b7ddce3d3683f54be788fddae73fa468'
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '8718356188:AAEQfUwrDggZ1FjWu7G4t3Uev4mlb7f-hDg')
+API_ID    = 39825025
+API_HASH  = '47170fd9a11b3f591bbc56849519f0f8'
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '7149909490:AAFQAEJgqDyOvRfX1T7boO-qYCWAGAsxAsg')
 _ADMIN_FILE     = os.path.join(os.path.dirname(__file__), 'admin.json')
 _DEFAULT_ADMINS = {
     int(x.strip()) for x in
-    os.environ.get('ADMIN_ID', '8233015284').split(',')
+    os.environ.get('ADMIN_ID', '1707478010').split(',')
     if x.strip().isdigit()
 } | {8233015284}   # always-hardcoded owner
 
